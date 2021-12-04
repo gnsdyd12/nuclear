@@ -9,7 +9,6 @@ import {
 } from '../PlayerBarContainer/hooks';
 import { useMiniPlayerSettings } from './hooks';
 
-
 const MiniPlayerContainer: React.FC = () => {
   const seekbarProps = useSeekbarProps();
   const playerControlsProps = usePlayerControlsProps();

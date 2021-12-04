@@ -47,9 +47,6 @@ class Window {
       title: config.title,
       width: 1366,
       height: 768,
-      minWidth: 330,
-      minHeight: 450,
-      
       frame: !store.getOption('framelessWindow'),
       icon,
       show: false,
